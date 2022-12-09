@@ -23,16 +23,16 @@ function nightDayHandler(self){
   var target = document.querySelector('body');
   if (self.value === 'night') {
     body.setbackgroundcolor('black');
-    body.setcolor('whit');
+    body.setcolor('white');
     self.value = 'day';
 
-    Links.Setcolor('powderblue');
+    links.setcolor('white');
   }
   else {
     body.setbackgroundcolor('white');
     body.setcolor('black');
     self.value = 'night';
 
-    Links.Setcolor('blue');
+    links.setcolor('blue');
   }
 }
